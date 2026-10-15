@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Descubre el universo de Kuromi: imágenes, curiosidades, música y contenido multimedia inspirado en Sanrio.">
+
+    <meta name="keywords"
+        content="Kuromi, Sanrio, My Melody, personajes, Mundo Kuromi">
+
+    <meta name="author" content="Damaris Aguilar Rodriguez">
+
+    <title>Kuromi | Mundo Kuromi</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO Y NAVEGACIÓN -->
+    <header>
+        <div class="logo">
+            <img src="img/kuromi.png" alt="Logo de Kuromi"class="float-img">
+            <h1>KUROMI</h1>
+        </div>
+
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#Multimedia">Multimedia</a></li>
+                <li><a href="#direccion">Dirección</a></li>
+                <li><a href="#contacto">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PRESENTACIÓN PRINCIPAL -->
+        <section class="presentacion clearfix">
+            <div class="texto">
+                <h2 style="color: blueviolet;">  KUROMI ♡</h2>
+                <p>
+                    Kuromi es un personaje de Sanrio conocido por su
+                    capucha negra y su calavera rosa. Aunque parece
+                    traviesa y rebelde, también tiene un lado femenino
+                    y divertido. Le encanta escribir en su diario y
+                    disfrutar de sus pasatiempos.
+                </p>
+
+                <a href="#productos" class="boton">Conoce más ♡</a>
+            </div>
+
+            <div class="imagen">
+                <img src="img/kuromiprincipal.png"
+                    alt="Ilustración principal del personaje Kuromi">
+            </div>
+        </section>
+
+        <!-- GALERÍA DE PRODUCTOS -->
+        <section id="productos" class="productos">
+            <h2>Universo Kuromi ♡</h2>
+
+            <p class="subtitulo">
+                Conoce su lado más divertido.
+            </p>
+
+            <div class="galeria">
+
+                <div class="tarjeta">
+                    <img src="img/kuromift1.jpg"
+                        alt="Kuromi en su estilo clásico">
+
+                    <h3>Kuromi clásica</h3>
+                    <p>Su estilo clásico y encantador.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="img/kuromift2.jpg"
+                        alt="Kuromi con estilo oscuro y travieso">
+
+                    <h3>Kuromi juguetona</h3>
+                    <p>Su estilo oscuro y travieso.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="img/kuromift.jpg"
+                        alt="Kuromi con una expresión alegre">
+
+                    <h3>Kuromi alegre</h3>
+                    <p>Su estilo alegre y divertido.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTENIDO MULTIMEDIA -->
+        <section id="Multimedia" class="multimedia">
+
+            <h2>My Melody &amp; Kuromi ♡</h2>
+
+            <p>
+                Los entrañables personajes de Sanrio cobran vida en
+                My Melody &amp; Kuromi, una serie de animación stop
+                motion que celebra la amistad, la diversión y la
+                personalidad de estos personajes.
+            </p>
+
+            <div class="reproductor">
+                <h3 style="color: rgb(17, 4, 29);">Video de Kuromi</h3>
+
+                <video controls preload="metadata">
+                    <source src="videokuromi.mp4.mp4" type="video/mp4">
+                    Tu navegador no admite la reproducción de este video.
+                </video>
+            </div>
+
+            <div class="reproductor">
+                <h3 style="color: rgb(17, 4, 29);" >Bambee - Bumble Bee ♡</h3>
+
+                <audio controls preload="metadata">
+                    <source src="audio.mp3.mp3" type="audio/mpeg">
+                    Tu navegador no admite la reproducción de audio.
+                </audio>
+            </div>
+        </section>
+
+        <section id="direccion" class="direccion">
+            <h2>Tienda física ♡</h2>
+            <p style="color: white" >
+                Encuentra nuestra ubicación de referencia en el mapa.
+            </p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83279.33144498868!2d-77.09974464317611!3d-12.053214647366831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce543477f8d9%3A0x9d64f6794789376b!2sMega%20Plaza!5e0!3m2!1ses!2spe"
+                title="Mapa de ubicación de MegaPlaza"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <!-- FORMULARIO DE CONTACTO -->
+        <section id="contacto" class="contacto">
+
+            <h2 class="titulo-contacto      " style="padding-top:30px"> Contáctanos ♡</h2>
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 col-lg-6">
+
+                        <div class="formulario">
+                            <h3>MUNDO KUROMI ♡</h3>
+
+                            <form action="" method="post">
+
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">
+                                        Nombre completo:
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="nombre"
+                                        name="nombre"
+                                        class="form-control"
+                                        placeholder="Ej. Damaris Aguilar"
+                                        autocomplete="name"
+                                        required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="correo" class="form-label">
+                                        Correo electrónico:
+                                    </label>
+
+                                    <input
+                                        type="email"
+                                        id="correo"
+                                        name="correo"
+                                        class="form-control"
+                                        placeholder="ejemplo@gmail.com"
+                                        autocomplete="email"
+                                        required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="distrito" class="form-label">
+                                        Distrito:
+                                    </label>
+
+                                    <select
+                                        id="distrito"
+                                        name="distrito"
+                                        class="form-select"
+                                        required>
+
+                                        <option value="">
+                                            Selecciona tu distrito
+                                        </option>
+
+                                        <option value="Callao">Callao</option>
+                                        <option value="Carabayllo">Carabayllo</option>
+                                        <option value="Los Olivos">Los Olivos</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="mensaje" class="form-label">
+                                        Mensaje:
+                                    </label>
+
+                                    <textarea
+                                        id="mensaje"
+                                        name="mensaje"
+                                        class="form-control"
+                                        rows="4"
+                                        placeholder="Escribe tu consulta..."
+                                        required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn-enviar">
+                                    Enviar mensaje ♡
+                                </button>
+
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer id="pie">
+        <p><strong>Proyecto académico:</strong> Mundo Kuromi</p>
+
+        <p>
+            Estudiante:
+            <em>Damaris Aguilar Rodriguez</em>
+        </p>
+
+        <p>Ingeniería de Sistemas e Informática - II Ciclo</p>
+
+        <p>&copy; 2026 Mundo Kuromi - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
